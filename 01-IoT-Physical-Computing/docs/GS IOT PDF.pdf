@@ -1,0 +1,90 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Length 3857 >>
+stream
+BT /F2 18 Tf 50 790 Td (Resumo do Projeto - AstroAgro Sentinel) Tj ET
+BT /F1 11 Tf 50 766 Td (Global Solution 2026.1 - IoT e Nova Economia Espacial) Tj ET
+BT /F2 13 Tf 50 740 Td (Integrantes) Tj ET
+BT /F1 10 Tf 58 722 Td (- Lucca Phelipe Masini \(RM 564121\)) Tj ET
+BT /F1 10 Tf 58 704 Td (- Igor Paixão Sarak \(RM 563726\)) Tj ET
+BT /F1 10 Tf 58 686 Td (- Bernardo Braga Perobeli \(RM 562468\)) Tj ET
+BT /F2 13 Tf 50 662 Td (Objetivo) Tj ET
+BT /F1 10 Tf 58 644 Td (O projeto desenvolve uma solução IoT fictícia para agricultura sustentável dentro do tema da) Tj ET
+BT /F1 10 Tf 58 630 Td (nova economia espacial. A proposta conecta sensores locais instalados em uma área agrícola a) Tj ET
+BT /F1 10 Tf 58 616 Td (uma plataforma IoT que simula o uso de dados orbitais para apoiar decisões de irrigação,) Tj ET
+BT /F1 10 Tf 58 602 Td (alerta e monitoramento.) Tj ET
+BT /F2 13 Tf 50 578 Td (O que foi implementado) Tj ET
+BT /F1 10 Tf 58 560 Td (- Firmware para ESP32 com leitura de sensores, envio de telemetria via MQTT e recebimento de) Tj ET
+BT /F1 10 Tf 58 546 Td (comandos remotos de irrigação.) Tj ET
+BT /F1 10 Tf 58 528 Td (- Fluxo Node-RED para orquestração, cálculo do Índice AstroAgro de Risco, gravação em) Tj ET
+BT /F1 10 Tf 58 514 Td (SQLite, dashboard e alertas.) Tj ET
+BT /F1 10 Tf 58 496 Td (- Banco SQLite com estrutura para armazenar medições, estado da aplicação, risco calculado e) Tj ET
+BT /F1 10 Tf 58 482 Td (recomendação operacional.) Tj ET
+BT /F1 10 Tf 58 464 Td (- Simulador Python para demonstrar o projeto sem hardware físico, gerando cenários normais,) Tj ET
+BT /F1 10 Tf 58 450 Td (críticos e de falha operacional.) Tj ET
+BT /F1 10 Tf 58 432 Td (- Documentação de demonstração e roteiro de pitch para apresentação de até 5 minutos.) Tj ET
+BT /F2 13 Tf 50 408 Td (Arquitetura final) Tj ET
+BT /F1 10 Tf 58 390 Td (O ESP32, ou o simulador Python, publica leituras no tópico MQTT astroagro/sensores. O Node-) Tj ET
+BT /F1 10 Tf 58 376 Td (RED processa essas mensagens, atualiza o dashboard, registra os dados em SQLite e publica) Tj ET
+BT /F1 10 Tf 58 362 Td (alertas no tópico astroagro/alertas. A plataforma também envia comandos para) Tj ET
+BT /F1 10 Tf 58 348 Td (astroagro/comandos/irrigacao, permitindo ligar ou desligar a irrigação.) Tj ET
+BT /F2 13 Tf 50 324 Td (Critérios atendidos) Tj ET
+BT /F1 10 Tf 58 306 Td (- Aplicação alinhada ao tema espacial, usando um índice orbital simulado como complemento) Tj ET
+BT /F1 10 Tf 58 292 Td (aos dados dos sensores.) Tj ET
+BT /F1 10 Tf 58 274 Td (- Uso de múltiplos sensores e atuador: umidade do solo, temperatura, umidade do ar,) Tj ET
+BT /F1 10 Tf 58 260 Td (luminosidade, nível de água, fluxo e relé/LED de irrigação.) Tj ET
+BT /F1 10 Tf 58 242 Td (- Transmissão de dados por MQTT, orquestração por Node-RED, armazenamento em SQLite e) Tj ET
+BT /F1 10 Tf 58 228 Td (visualização em dashboard.) Tj ET
+BT /F1 10 Tf 58 210 Td (- Alertas externos por Telegram, quando configurado, e publicação de alertas no broker MQTT.) Tj ET
+BT /F1 10 Tf 58 192 Td (- Comunicação bidirecional entre dispositivo e plataforma, com comandos remotos para) Tj ET
+BT /F1 10 Tf 58 178 Td (irrigação.) Tj ET
+BT /F1 10 Tf 58 160 Td (- Inovação por meio do Índice AstroAgro de Risco, que classifica o cenário como baixo, médio) Tj ET
+BT /F1 10 Tf 58 146 Td (ou alto e gera recomendação prática.) Tj ET
+BT /F2 13 Tf 50 122 Td (Resultado final) Tj ET
+BT /F1 10 Tf 58 104 Td (O resultado é um protótipo acadêmico funcional e demonstrável. Ele permite simular ou) Tj ET
+BT /F1 10 Tf 58 90 Td (executar uma solução IoT completa, mostrando coleta de dados, processamento em nuvem,) Tj ET
+BT /F1 10 Tf 58 76 Td (armazenamento, dashboard, alertas e acionamento remoto. O projeto evidencia como dados) Tj ET
+BT /F1 10 Tf 58 62 Td (espaciais e sensores terrestres podem trabalhar juntos para economia de água,) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Length 91 >>
+stream
+BT /F1 10 Tf 58 790 Td (sustentabilidade agrícola e tomada de decisão em tempo real.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [5 0 R 6 0 R] /Count 2 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000112 00000 n 
+0000000214 00000 n 
+0000004123 00000 n 
+0000004264 00000 n 
+0000004400 00000 n 
+0000004536 00000 n 
+0000004599 00000 n 
+trailer
+<< /Size 9 /Root 8 0 R >>
+startxref
+4648
+%%EOF

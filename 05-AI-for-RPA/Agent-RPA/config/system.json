@@ -1,0 +1,13 @@
+{
+  "system_id": "GSRPA",
+  "system_name": "GS-RPA",
+  "branding": {
+    "primary_color": "#00ffcc",
+    "mode": "dark",
+    "logo_url": ""
+  },
+  "default_operator": {
+    "name": "Operator",
+    "role": "admin"
+  }
+}

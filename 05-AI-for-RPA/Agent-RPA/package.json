@@ -1,0 +1,13 @@
+{
+  "name": "digital-twin-template",
+  "version": "1.0.0",
+  "description": "Generic Digital Twin Infrastructure for Industrial Assets",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+
+    "build:frontend": "cd frontend && npm run build",
+    "install:frontend": "cd frontend && npm install"
+  },
+  "author": "Sarak",
+  "license": "MIT"
+}

@@ -1,0 +1,91 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 3869 >>
+stream
+BT /F2 18 Tf 56.0 790.0 Td (Resumo do Projeto - NeuroSpace Alert) Tj ET
+BT /F2 11 Tf 56.0 762.0 Td (GS Cluster e Computação Neuromórfica - 1S2026) Tj ET
+BT /F1 10 Tf 56.0 736.0 Td (Integrantes: Lucca Phelipe Masini \(RM 564121\), Igor Paixão Sarak \(RM 563726\) e Bernardo) Tj ET
+BT /F1 10 Tf 56.0 722.0 Td (Braga Perobeli \(RM 562468\).) Tj ET
+BT /F2 13 Tf 56.0 696.0 Td (Objetivo) Tj ET
+BT /F1 10 Tf 56.0 679.0 Td (O projeto propôs e testou um sensor neuromórfico conceitual de baixo consumo para um módulo) Tj ET
+BT /F1 10 Tf 56.0 665.0 Td (de operação em Marte. O sensor monitora a combinação de temperatura, radiação e poeira para) Tj ET
+BT /F1 10 Tf 56.0 651.0 Td (detectar a evolução de uma condição crítica em ambiente extremo.) Tj ET
+BT /F2 13 Tf 56.0 625.0 Td (Como foi feito) Tj ET
+BT /F1 10 Tf 56.0 608.0 Td (Foi usado o dataset fornecido com 5 horas de operação, contendo leituras a cada 5 minutos.) Tj ET
+BT /F1 10 Tf 56.0 594.0 Td (O notebook corrigido foi executado com uma simulação de memristor virtual: as variáveis) Tj ET
+BT /F1 10 Tf 56.0 580.0 Td (ambientais são combinadas em V_entrada, comparadas com um limiar e acumuladas em um estado) Tj ET
+BT /F1 10 Tf 56.0 566.0 Td (de memória local.) Tj ET
+BT /F2 13 Tf 56.0 540.0 Td (Lógica do sensor) Tj ET
+BT /F1 10 Tf 56.0 523.0 Td (Quando o estado do memristor fica abaixo de 0,35, o LED permanece APAGADO. A partir de) Tj ET
+BT /F1 10 Tf 56.0 509.0 Td (0,35, o LED fica AMARELO e o diagnóstico passa para OBSERVACAO. A partir de 0,65, o LED) Tj ET
+BT /F1 10 Tf 56.0 495.0 Td (fica VERMELHO e o diagnóstico passa para ALERTA_CRITICO.) Tj ET
+BT /F2 13 Tf 56.0 469.0 Td (Ajustes testados e resultados) Tj ET
+BT /F2 9 Tf 56.0 449.0 Td (Ajuste) Tj ET
+BT /F2 9 Tf 111.0 449.0 Td (Perfil) Tj ET
+BT /F2 9 Tf 211.0 449.0 Td (V_limiar) Tj ET
+BT /F2 9 Tf 286.0 449.0 Td (Taxa) Tj ET
+BT /F2 9 Tf 356.0 449.0 Td (LED amarelo) Tj ET
+BT /F2 9 Tf 451.0 449.0 Td (LED vermelho) Tj ET
+BT /F1 9 Tf 56.0 434.0 Td (A) Tj ET
+BT /F1 9 Tf 111.0 434.0 Td (Sensível) Tj ET
+BT /F1 9 Tf 211.0 434.0 Td (24) Tj ET
+BT /F1 9 Tf 286.0 434.0 Td (0.006) Tj ET
+BT /F1 9 Tf 356.0 434.0 Td (170 min) Tj ET
+BT /F1 9 Tf 451.0 434.0 Td (190 min) Tj ET
+BT /F1 9 Tf 56.0 420.0 Td (B) Tj ET
+BT /F1 9 Tf 111.0 420.0 Td (Equilibrado) Tj ET
+BT /F1 9 Tf 211.0 420.0 Td (28) Tj ET
+BT /F1 9 Tf 286.0 420.0 Td (0.005) Tj ET
+BT /F1 9 Tf 356.0 420.0 Td (205 min) Tj ET
+BT /F1 9 Tf 451.0 420.0 Td (225 min) Tj ET
+BT /F1 9 Tf 56.0 406.0 Td (C) Tj ET
+BT /F1 9 Tf 111.0 406.0 Td (Conservador) Tj ET
+BT /F1 9 Tf 211.0 406.0 Td (33) Tj ET
+BT /F1 9 Tf 286.0 406.0 Td (0.004) Tj ET
+BT /F1 9 Tf 356.0 406.0 Td (260 min) Tj ET
+BT /F1 9 Tf 451.0 406.0 Td (300 min) Tj ET
+BT /F2 13 Tf 56.0 380.0 Td (Resultado final) Tj ET
+BT /F1 10 Tf 56.0 363.0 Td (O Ajuste B foi recomendado como protótipo conceitual final, pois equilibrou sensibilidade e) Tj ET
+BT /F1 10 Tf 56.0 349.0 Td (estabilidade. Ele detectou observação aos 205 minutos e alerta crítico aos 225 minutos, sem) Tj ET
+BT /F1 10 Tf 56.0 335.0 Td (ser tão antecipado quanto o ajuste sensível nem tão tardio quanto o conservador.) Tj ET
+BT /F2 13 Tf 56.0 309.0 Td (Relevância neuromórfica) Tj ET
+BT /F1 10 Tf 56.0 292.0 Td (A solução usa limiar, memória local e processamento por eventos. Em vez de transmitir todos) Tj ET
+BT /F1 10 Tf 56.0 278.0 Td (os dados brutos continuamente, o módulo pode enviar apenas estados relevantes, reduzindo) Tj ET
+BT /F1 10 Tf 56.0 264.0 Td (comunicação, consumo energético e dependência de uma central remota.) Tj ET
+BT /F2 13 Tf 56.0 238.0 Td (Entregáveis gerados) Tj ET
+BT /F1 10 Tf 56.0 221.0 Td (Foram produzidos o notebook executado, a tabela resumo_transicoes.csv, o arquivo de saída) Tj ET
+BT /F1 10 Tf 56.0 207.0 Td (do Ajuste B e o relatório completo em Markdown e DOCX.) Tj ET
+BT /F1 8 Tf 56.0 38.0 Td (Arquivo gerado em PDF para resumo direto do projeto.) Tj ET
+
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000000354 00000 n 
+0000000456 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4377
+%%EOF

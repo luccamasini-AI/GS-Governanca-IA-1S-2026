@@ -1,0 +1,20 @@
+# --- Core API e Servidor ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# --- Validação e Configurações (Fail-Fast) ---
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.0
+
+# --- Banco de Dados e ORM ---
+sqlalchemy[asyncio]>=2.0.0
+aiosqlite>=0.20.0
+
+# --- Ingestão e IoT Industrial ---
+paho-mqtt>=2.0.0
+
+# --- Qualidade de Código e Testes ---
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+ruff>=0.3.0

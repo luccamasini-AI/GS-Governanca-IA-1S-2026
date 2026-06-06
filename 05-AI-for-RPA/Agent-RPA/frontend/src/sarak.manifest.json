@@ -1,0 +1,39 @@
+{
+  "system": {
+    "id": "GSRPA",
+    "name": "GS-RPA",
+    "version": "1.0.2",
+    "branding": {
+      "primaryColor": "#00ffcc",
+      "mode": "dark"
+    }
+  },
+  "design": {
+    "layout": "sovereign",
+    "theme": "industrial",
+    "density": "comfortable"
+  },
+  "modules": [
+    {
+      "id": "rpa_panel",
+      "label": "Automação RPA",
+      "icon": "Bot",
+      "category": "Automação",
+      "active": true
+    },
+    {
+      "id": "digital_twin",
+      "label": "Frota",
+      "icon": "Cpu",
+      "category": "Operacional",
+      "active": true
+    },
+    {
+      "id": "catalogs",
+      "label": "Arquivos",
+      "icon": "Box",
+      "category": "Infraestrutura",
+      "active": true
+    }
+  ]
+}
