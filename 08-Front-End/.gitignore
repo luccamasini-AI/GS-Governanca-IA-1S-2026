@@ -1,0 +1,27 @@
+# Caches de Compilação do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente Virtual de Desenvolvimento
+venv/
+.venv/
+env/
+ENV/
+
+# Caches de Ferramentas de Testes e IDEs
+.pytest_cache/
+.vscode/
+.idea/
+
+# Arquivos temporários do Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos locais não enviados para o GitHub
+relatorio_abnt.html
+Relatorio.html
+contexto_front_end.md
+GS_Frontend_2TIAPF.pdf
+roteiro.md
